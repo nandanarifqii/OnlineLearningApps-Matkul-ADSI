@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./riwayat-kursus.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="riwayatkursus">
+      <header class="header-section1">
+        <img
+          class="button-back-icon1"
+          alt=""
+          src="./public/button-back1.svg"
+          id="buttonBackIcon"
+        />
+
+        <div class="selesai">Riwayat Kursus</div>
+        <div class="text-input1"></div>
+      </header>
+      <div class="container1">
+        <div class="card-riwayat-kuis">
+          <img
+            class="image-container-icon"
+            alt=""
+            src="./public/image-container@2x.png"
+          />
+
+          <div class="details-container">
+            <h3 class="course-title">The 4 Most Important Laws of UX Design</h3>
+            <label class="course-status">
+              <div class="label24">
+                <div class="selesai">Selesai</div>
+              </div>
+            </label>
+            <button class="button-large" id="buttonLarge">
+              <div class="button-text">Unduh Sertifikat</div>
+            </button>
+          </div>
+        </div>
+        <div class="card-riwayat-kuis1">
+          <img
+            class="image-container-icon"
+            alt=""
+            src="./public/image-container1@2x.png"
+          />
+
+          <div class="details-container">
+            <h3 class="course-title">Bahasa Belanda (Tingkat Menengah)</h3>
+            <label class="course-status">
+              <div class="label24">
+                <div class="selesai">Selesai</div>
+              </div>
+            </label>
+            <button class="button-large" id="buttonLarge1">
+              <div class="button-text">Unduh Sertifikat</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonBackIcon = document.getElementById("buttonBackIcon");
+      if (buttonBackIcon) {
+        buttonBackIcon.addEventListener("click", function (e) {
+          window.location.href = "./riwayat-transaksi.html";
+        });
+      }
+      
+      var buttonLarge = document.getElementById("buttonLarge");
+      if (buttonLarge) {
+        buttonLarge.addEventListener("click", function (e) {
+          window.location.href = "./unduh-sertifikat.html";
+        });
+      }
+      
+      var buttonLarge1 = document.getElementById("buttonLarge1");
+      if (buttonLarge1) {
+        buttonLarge1.addEventListener("click", function (e) {
+          window.location.href = "./unduh-sertifikat.html";
+        });
+      }
+      </script>
+  </body>
+</html>

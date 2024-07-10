@@ -1,0 +1,352 @@
+.frame-child1 {
+  position: relative;
+  background-color: var(--color-powderblue-100);
+  width: 390px;
+  height: 30px;
+}
+.hero-img-icon2 {
+  position: relative;
+  width: 390px;
+  height: 115px;
+  object-fit: cover;
+}
+.frame-child2 {
+  position: relative;
+  background-color: var(--color-cadetblue);
+  width: 390px;
+  height: 15px;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description,
+.title8 {
+  position: relative;
+}
+.description {
+  font-size: var(--title-poppins-small-size);
+  line-height: 120%;
+  display: inline-block;
+  width: 342px;
+}
+.title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-xl);
+}
+.sub-title2 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+.group-icon {
+  position: relative;
+  width: 14.73px;
+  height: 12.47px;
+}
+.div20 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xs) var(--padding-12xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraph24 {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  width: 317px;
+  flex-shrink: 0;
+}
+.parent15 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frame-parent36,
+.frame-parent37,
+.sub-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent37 {
+  gap: var(--gap-5xs);
+  font-size: var(--title-poppins-small-size);
+}
+.frame-parent36,
+.sub-title-container {
+  gap: var(--gap-xs);
+}
+.frame-parent36 {
+  position: absolute;
+  top: 284px;
+  left: 24px;
+  gap: var(--gap-base);
+}
+.detail-kelas-kursus-child,
+.detail-kelas-kursus-item {
+  position: absolute;
+  top: 748px;
+  left: 0;
+  background-color: var(--neutral-color-white);
+  box-shadow: 0-2px 4px rgba(51, 51, 51, 0.3);
+  width: 390px;
+  height: 96px;
+}
+.detail-kelas-kursus-item {
+  top: 44px;
+  box-shadow: 0 2px 4px rgba(51, 51, 51, 0.3);
+  height: 65px;
+}
+.icon96 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.icon-parent21 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.icon97 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.icon-parent22,
+.top-header10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.top-header10 {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  background-color: var(--neutral-color-white);
+  width: 390px;
+  height: 64px;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  font-size: var(--font-size-3xl);
+  color: var(--neutral-color-700);
+}
+.actual-price {
+  position: absolute;
+  top: 0.49px;
+  left: 0;
+  font-weight: 500;
+}
+.line-icon {
+  position: absolute;
+  top: -0.49px;
+  left: 0;
+  width: 62.26px;
+  height: 13.94px;
+}
+.actual-price-parent {
+  position: relative;
+  width: 62px;
+  height: 14.49px;
+}
+.discount {
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-skyblue);
+}
+.frame-parent40 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.button19,
+.frame-parent39 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.button19 {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  width: 163px;
+  padding: var(--padding-xs) var(--padding-base);
+  justify-content: center;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  color: var(--neutral-color-700);
+}
+.frame-parent39 {
+  position: absolute;
+  top: 750px;
+  left: 0;
+  width: 390px;
+  height: 94px;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-13xl);
+  justify-content: space-between;
+  font-size: var(--font-size-xs);
+  color: #f93b34;
+}
+.div27 {
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+}
+.location-services-active-wit14 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.time14 {
+  position: absolute;
+  top: 16px;
+  left: calc(50% - 17px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.left-area14,
+.notch-area14 {
+  position: relative;
+  height: 44px;
+}
+.left-area14 {
+  flex: 1;
+  overflow: hidden;
+}
+.notch-area14 {
+  width: 164px;
+}
+.bar-114,
+.bar-214,
+.bar-314,
+.bar-414 {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% + 6.35px);
+  border-radius: var(--br-12xs);
+  background-color: var(--light-gray-11);
+  width: 3.2px;
+  height: 12px;
+}
+.bar-114,
+.bar-214,
+.bar-314 {
+  top: calc(50% - 3.6px);
+  left: calc(50% + 1.05px);
+  height: 9.6px;
+}
+.bar-114,
+.bar-214 {
+  top: calc(50% - 1px);
+  left: calc(50% - 4.25px);
+  height: 7px;
+}
+.bar-114 {
+  top: calc(50% + 1.4px);
+  left: calc(50% - 9.55px);
+  height: 4.6px;
+}
+.network-wifi-full14,
+.sim-1-single-sim14 {
+  position: relative;
+  width: 20px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.network-wifi-full14 {
+  height: 12px;
+}
+.battery-full-uncharged14 {
+  position: relative;
+  width: 28px;
+  height: 14px;
+}
+.auto-layout14 {
+  position: absolute;
+  top: calc(50% - 7px);
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.status-area14 {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 37.5px);
+  width: 76px;
+  height: 14px;
+}
+.privacy-indicator-none14 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+}
+.right-area14 {
+  flex: 1;
+  position: relative;
+  height: 44px;
+}
+.detail-kelas-kursus,
+.iphone-with-notch11 {
+  background-color: var(--neutral-color-white);
+}
+.iphone-with-notch11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-sf-pro-text);
+}
+.detail-kelas-kursus {
+  position: relative;
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--light-gray-11);
+  font-family: var(--font-roboto);
+}

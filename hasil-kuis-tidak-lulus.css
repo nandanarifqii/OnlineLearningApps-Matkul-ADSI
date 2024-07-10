@@ -1,0 +1,77 @@
+.maaf-kamu-belum {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.maaf-kamu-belum-lulus-dengan-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-10xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.h1,
+.login1 {
+  position: relative;
+  font-weight: 500;
+}
+.h1 {
+  margin: 0;
+  align-self: stretch;
+  font-size: var(--font-size-45xl);
+  font-family: inherit;
+}
+.login1 {
+  flex: 1;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-roboto);
+  color: var(--light-gray-11);
+  text-align: center;
+}
+.buttonlarge,
+.buttonlarge1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 0;
+  background-color: var(--primary);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlarge1 {
+  background-color: var(--color-lavender-100);
+}
+.button21,
+.hasilkuistidaklulus {
+  background-color: var(--neutral-color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button21 {
+  align-self: stretch;
+  padding: var(--padding-13xl) var(--padding-xl);
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.hasilkuistidaklulus {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  padding: var(--padding-171xl) 0;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--light-gray-11);
+  font-family: var(--font-roboto);
+}

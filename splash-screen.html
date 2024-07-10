@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./splash-screen.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="splash-screen">
+      <div class="jawir" id="jAWIRText">JAWIR</div>
+      <div class="caption-splash-screen">
+        Top platform online course in Indonesia
+      </div>
+      <div class="logo1" id="logoContainer">
+        <div class="logo-child"></div>
+        <img class="image-1-icon2" alt="" src="./public/image-11@2x.png" />
+      </div>
+      <div class="statusbar16">
+        <div class="horizontal-container32">
+          <img class="icon112" alt="" src="./public/941.svg" />
+        </div>
+        <img class="text-input-icon16" alt="" />
+
+        <div class="horizontal-container33">
+          <img
+            class="horizontal-container-icon16"
+            alt=""
+            src="./public/horizontal-container3.svg"
+          />
+
+          <img
+            class="vertical-container-icon16"
+            alt=""
+            src="./public/vertical-container.svg"
+          />
+
+          <img class="slider-icon16" alt="" src="./public/slider3.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var jAWIRText = document.getElementById("jAWIRText");
+      if (jAWIRText) {
+        jAWIRText.addEventListener("click", function (e) {
+          window.location.href = "./on-boarding-1.html";
+        });
+      }
+      
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "./on-boarding-1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

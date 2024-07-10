@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./on-boarding-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="on-boarding-2">
+      <b class="caption-2">Best Deals</b>
+      <div class="title-2">
+        Find your Course Class at the best price with exclusive offers only on
+        the Jawir app.
+      </div>
+      <div class="on-boarding-2-child"></div>
+      <b class="button-skip2" id="buttonSkip2Text">LEWATI</b>
+      <div class="image2"></div>
+      <img class="frame-icon" alt="" src="./public/frame.svg" />
+
+      <div class="circle04-parent">
+        <div class="circle04" id="circle04"></div>
+        <div class="circle05"></div>
+        <img
+          class="circle06-icon"
+          alt=""
+          src="./public/circle06.svg"
+          id="circle06Icon"
+        />
+      </div>
+      <div class="statusbar7">
+        <div class="horizontal-container14">
+          <img class="icon100" alt="" src="./public/941.svg" />
+        </div>
+        <img class="text-input-icon7" alt="" />
+
+        <div class="horizontal-container15">
+          <img
+            class="horizontal-container-icon7"
+            alt=""
+            src="./public/horizontal-container3.svg"
+          />
+
+          <img
+            class="vertical-container-icon7"
+            alt=""
+            src="./public/vertical-container.svg"
+          />
+
+          <img class="slider-icon7" alt="" src="./public/slider3.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonSkip2Text = document.getElementById("buttonSkip2Text");
+      if (buttonSkip2Text) {
+        buttonSkip2Text.addEventListener("click", function (e) {
+          window.location.href = "./on-boarding-3.html";
+        });
+      }
+      
+      var circle04 = document.getElementById("circle04");
+      if (circle04) {
+        circle04.addEventListener("click", function (e) {
+          window.location.href = "./on-boarding-1.html";
+        });
+      }
+      
+      var circle06Icon = document.getElementById("circle06Icon");
+      if (circle06Icon) {
+        circle06Icon.addEventListener("click", function (e) {
+          window.location.href = "./on-boarding-3.html";
+        });
+      }
+      </script>
+  </body>
+</html>

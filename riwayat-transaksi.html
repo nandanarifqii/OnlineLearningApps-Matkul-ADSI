@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./riwayat-transaksi.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="riwayat-transaksi">
+      <div class="iphone-with-notch">
+        <div class="left-area1">
+          <div class="time1">
+            <div class="div1">9:41</div>
+            <img
+              class="location-services-active-wit1"
+              alt=""
+              src="./public/location-services--active-with-condition.svg"
+            />
+          </div>
+        </div>
+        <div class="notch-area1"></div>
+        <div class="right-area1">
+          <div class="status-area1">
+            <div class="auto-layout1">
+              <div class="sim-1-single-sim1">
+                <div class="bar-41"></div>
+                <div class="bar-31"></div>
+                <div class="bar-21"></div>
+                <div class="bar-11"></div>
+              </div>
+              <img
+                class="network-wifi-full1"
+                alt=""
+                src="./public/network--wifi-full2.svg"
+              />
+
+              <img
+                class="battery-full-uncharged1"
+                alt=""
+                src="./public/battery--full-uncharged.svg"
+              />
+            </div>
+          </div>
+          <img class="privacy-indicator-none1" alt="" />
+        </div>
+      </div>
+      <div class="back">
+        <img
+          class="chevron-left-icon"
+          alt=""
+          src="./public/chevronleft.svg"
+          id="chevronLeftIcon"
+        />
+
+        <div class="riwayat-pembayaran">Riwayat Pembayaran</div>
+        <img
+          class="navigation-bar-icon"
+          alt=""
+          src="./public/navigation-bar.svg"
+        />
+      </div>
+      <div class="expense">
+        <div class="spent">
+          <b class="price">Rp1,800,156.00 </b>
+          <b class="date">10 - 28 November</b>
+        </div>
+        <div class="week">
+          <div class="week-child"></div>
+          <div class="week-item"></div>
+          <div class="week-inner"></div>
+          <b class="week1">W</b>
+          <b class="month">M</b>
+          <b class="year">Y</b>
+        </div>
+      </div>
+      <div class="today">
+        <b class="date1">Today, 29 November</b>
+        <div class="history">
+          <img class="history-child" alt="" src="./public/group-12.svg" />
+
+          <div class="price2">Rp300,016.00</div>
+          <div class="you-paid">You paid</div>
+          <img
+            class="chevron-right-icon"
+            alt=""
+            src="./public/chevronright.svg"
+          />
+
+          <div class="product">Bahasa Inggris (Tingkat Lanjut)</div>
+        </div>
+      </div>
+      <div class="yesterday">
+        <b class="date2">Yesterday, 28 November</b>
+        <div class="history1">
+          <img class="history-child" alt="" src="./public/group-121.svg" />
+
+          <div class="account">
+            <p class="bahasa-inggris">Bahasa Inggris</p>
+            <p class="bahasa-inggris">(Tingkat Menengah)</p>
+          </div>
+          <div class="you-paid1">You paid</div>
+          <img
+            class="chevron-right-icon"
+            alt=""
+            src="./public/chevronright1.svg"
+          />
+
+          <div class="price21">Rp800,042.00</div>
+        </div>
+        <div class="history2">
+          <img class="history-child" alt="" src="./public/group-122.svg" />
+
+          <div class="price22">Rp700,098.00</div>
+          <div class="you-paid2">You paid</div>
+          <img
+            class="chevron-right-icon"
+            alt=""
+            src="./public/chevronright2.svg"
+          />
+
+          <div class="account1">
+            <p class="bahasa-inggris">Bahasa Inggris</p>
+            <p class="bahasa-inggris">(Tingkat Pemula)</p>
+          </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <img class="background-icon" alt="" />
+
+        <div class="frame-parent">
+          <div class="icon-parent">
+            <img class="icon1" alt="" src="./public/icon29.svg" />
+
+            <div class="riwayat-kursus">Riwayat Pembayaran</div>
+          </div>
+          <div class="icon-group" id="frameContainer1">
+            <img class="icon1" alt="" src="./public/icon29.svg" />
+
+            <div class="riwayat-kursus">Riwayat Kursus</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var chevronLeftIcon = document.getElementById("chevronLeftIcon");
+      if (chevronLeftIcon) {
+        chevronLeftIcon.addEventListener("click", function (e) {
+          window.location.href = "./homepage.html";
+        });
+      }
+      
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          window.location.href = "./riwayat-kursus.html";
+        });
+      }
+      </script>
+  </body>
+</html>

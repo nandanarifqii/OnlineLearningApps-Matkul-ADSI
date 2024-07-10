@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./hasil-kuis-lulus.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="hasilkuislulus">
+      <div class="text-message1">
+        <h2 class="selamat-kamu-lulus">Selamat Kamu Lulus dengan Skor</h2>
+      </div>
+      <h1 class="quiz-score">82</h1>
+      <div class="button-container">
+        <button class="button-large2" id="buttonLarge">
+          <div class="button-text2">Unduh Sertifikat</div>
+        </button>
+        <button class="button-large3" id="buttonLarge1">
+          <div class="button-text2">Kembali ke Beranda</div>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var buttonLarge = document.getElementById("buttonLarge");
+      if (buttonLarge) {
+        buttonLarge.addEventListener("click", function (e) {
+          window.location.href = "./unduh-sertifikat.html";
+        });
+      }
+      
+      var buttonLarge1 = document.getElementById("buttonLarge1");
+      if (buttonLarge1) {
+        buttonLarge1.addEventListener("click", function (e) {
+          window.location.href = "./homepage.html";
+        });
+      }
+      </script>
+  </body>
+</html>

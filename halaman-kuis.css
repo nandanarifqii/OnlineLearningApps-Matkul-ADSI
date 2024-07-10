@@ -1,0 +1,197 @@
+.section-title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.header-section2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 40px var(--padding-xl) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.instruction1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.pilihlah-jawaban-a {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+.instruction-details {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-inherit);
+  line-height: 20px;
+  font-family: var(--font-inherit);
+}
+.instruction {
+  align-self: stretch;
+  border-radius: var(--br-sm);
+  background-color: var(--primary);
+  box-shadow: 0 0 4px 1px rgba(25, 27, 32, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-smi) var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.apa-kepanjangan-dari {
+  margin: 0;
+  font-family: var(--font-inherit);
+  font-size: var(--font-inherit);
+  padding-left: var(--padding-2xl);
+}
+.apa-kepanjangan-dari-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-500);
+  text-align: left;
+}
+.select-option {
+  cursor: pointer;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--neutral-color-white);
+  border: 1px solid var(--grey-2);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.option-quiz {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-500);
+  text-align: left;
+}
+.input-quiz,
+.quiz-text-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-quiz {
+  flex: 1;
+  gap: var(--gap-5xs);
+}
+.quiz-text-input {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-color-white);
+  border: 1px solid var(--stroke);
+  padding: var(--padding-sm) var(--padding-base);
+}
+.choice-quiz {
+  gap: var(--gap-3xs);
+}
+.choice-quiz,
+.form-question-quiz,
+.form-quiz {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form-question-quiz {
+  border-radius: var(--br-sm);
+  background-color: var(--neutral-color-white);
+  box-shadow: 0 0 4px 1px rgba(25, 27, 32, 0.1);
+  padding: var(--padding-smi) var(--padding-5xs);
+  gap: var(--gap-sm);
+}
+.form-quiz {
+  gap: var(--gap-base);
+}
+.button-text4,
+.card {
+  font-size: var(--font-size-lg);
+}
+.card {
+  align-self: stretch;
+  height: 608px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  z-index: 1;
+  text-align: left;
+  color: var(--color-gray-500);
+}
+.button-text4 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--light-gray-11);
+  text-align: center;
+}
+.button-large4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 0;
+  background-color: var(--primary);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button-container1,
+.halamankuis {
+  background-color: var(--neutral-color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-container1 {
+  margin: 0 !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0-3px 24px rgba(0, 0, 0, 0.15);
+  width: 360px;
+  padding: var(--padding-13xl) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+  z-index: 2;
+}
+.halamankuis {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--light-gray-11);
+  font-family: var(--font-roboto);
+}

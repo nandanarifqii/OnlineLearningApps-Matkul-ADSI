@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+    <html>    
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="./global.css" />
+<link rel="stylesheet"  href="./halaman-kuis.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap" />
+    
+    
+    
+    </head>
+    <body>
+    
+    <div class="halamankuis">
+      <div class="header-section2" id="header-title">
+        <h2 class="section-title">Kuis Evaluasi Kursus</h2>
+      </div>
+      <div class="card">
+        <div class="instruction" id="instruction">
+          <h3 class="instruction1">Instruksi:</h3>
+          <p class="instruction-details">
+            <ul class="pilihlah-jawaban-a">Pilihlah jawaban A, B, C atau D yang menurut kamu paling tepat.</ul>
+          </p>
+        </div>
+        <form class="form-quiz" method="post">
+          <div class="form-question-quiz" id="question">
+            <h3 class="apa-kepanjangan-dari-container" id="quiz-question">
+              <ul class="apa-kepanjangan-dari">Apa kepanjangan dari HTML?</ul>
+            </h3>
+            <div class="choice-quiz">
+              <div class="quiz-text-input">
+                <div class="input-quiz">
+                  <input class="select-option" type="radio">
+                  
+                  <h3 class="option-quiz" id="quiz-choice">A. Hyper Text Markup Language</h3>
+                </div>
+              </div>
+              <div class="quiz-text-input">
+                <div class="input-quiz">
+                  <input class="select-option" type="radio">
+                  
+                  <h3 class="option-quiz" id="quiz-choice">B. Home Tool Markup Language</h3>
+                </div>
+              </div>
+              <div class="quiz-text-input">
+                <div class="input-quiz">
+                  <input class="select-option" type="radio">
+                  
+                  <h3 class="option-quiz" id="quiz-choice">C. Hyperlinks and Text Language</h3>
+                </div>
+              </div>
+              <div class="quiz-text-input">
+                <div class="input-quiz">
+                  <input class="select-option" type="radio">
+                  
+                  <h3 class="option-quiz" id="quiz-choice">D. Hyper Tool Meta Language</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-question-quiz" id="question">
+            <h3 class="apa-kepanjangan-dari-container" id="quiz-question">
+              <ul class="apa-kepanjangan-dari">Apa tag yang digunakan untuk membuat heading pada HTML?</ul>
+            </h3>
+            <div class="choice-quiz">
+              <div class="quiz-text-input">
+                <div class="input-quiz">
+                  <input class="select-option" type="radio">
+                  
+                  <h3 class="option-quiz" id="quiz-choice">A. &lt;H1&gt;</h3>
+                </div>
+              </div>
+              <div class="quiz-text-input">
+                <div class="input-quiz">
+                  <input class="select-option" type="radio">
+                  
+                  <h3 class="option-quiz" id="quiz-choice">B. &lt;p&gt;</h3>
+                </div>
+              </div>
+              <div class="quiz-text-input">
+                <div class="input-quiz">
+                  <input class="select-option" type="radio">
+                  
+                  <h3 class="option-quiz" id="quiz-choice">C. &lt;br&gt;</h3>
+                </div>
+              </div>
+              <div class="quiz-text-input">
+                <div class="input-quiz">
+                  <input class="select-option" type="radio">
+                  
+                  <h3 class="option-quiz" id="quiz-choice">D. &lt;div&gt;</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="button-container1">
+        <button class="button-large4" id="buttonLarge">
+          <div class="button-text4">Kumpulkan Jawaban</div>
+        </button>
+      </div>
+    </div>
+    
+    
+    
+    
+    <script>
+      var buttonLarge = document.getElementById("buttonLarge");
+      if (buttonLarge) {
+        buttonLarge.addEventListener("click", function (e) {
+          window.location.href = "./hasil-kuis-lulus.html";
+        });
+      }
+      </script></body>  
+  </html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login3">
+      <div class="login-child"></div>
+      <div class="login4">Login</div>
+      <div class="login-item"></div>
+      <b class="login5" id="lOGINText">LOGIN</b>
+      <div class="login-inner"></div>
+      <div class="not-registered-yet-container" id="notRegisteredYet">
+        <span>Not Registered yet?</span>
+        <span class="span3"> </span>
+        <span class="create-an-account2">Create an Account</span>
+      </div>
+      <div class="login-with-google1">LOGIN WITH GOOGLE</div>
+      <div class="or1">OR</div>
+      <img class="login-child1" alt="" src="./public/line-3.svg" />
+
+      <img class="login-child2" alt="" src="./public/line-4.svg" />
+
+      <img
+        class="flat-color-iconsgoogle1"
+        alt=""
+        src="./public/flatcoloriconsgoogle.svg"
+      />
+
+      <div class="vector-parent1">
+        <img class="group-child20" alt="" src="./public/rectangle-13.svg" />
+
+        <input
+          class="input-email2"
+          type="text"
+          placeholder="Masukkan Email anda"
+        />
+      </div>
+      <div class="vector-parent2">
+        <img class="group-child20" alt="" src="./public/rectangle-14.svg" />
+
+        <input
+          class="input-name3"
+          type="text"
+          placeholder="Masukkan Password"
+        />
+      </div>
+      <div class="lupa-password" id="lupaPassword">Lupa Password ?</div>
+      <div class="hello-welcome-back">Hello Welcome back to our apps!</div>
+      <div class="email4">Email :</div>
+      <div class="password1">Password :</div>
+      <img class="vector-icon4" alt="" src="./public/vector1.svg" />
+
+      <div class="statusbar15">
+        <div class="horizontal-container30">
+          <img class="icon111" alt="" src="./public/941.svg" />
+        </div>
+        <img class="text-input-icon15" alt="" />
+
+        <div class="horizontal-container31">
+          <img
+            class="horizontal-container-icon15"
+            alt=""
+            src="./public/horizontal-container9.svg"
+          />
+
+          <img
+            class="vertical-container-icon15"
+            alt=""
+            src="./public/vertical-container.svg"
+          />
+
+          <img class="slider-icon15" alt="" src="./public/slider8.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var lOGINText = document.getElementById("lOGINText");
+      if (lOGINText) {
+        lOGINText.addEventListener("click", function (e) {
+          window.location.href = "./homepage.html";
+        });
+      }
+      
+      var notRegisteredYet = document.getElementById("notRegisteredYet");
+      if (notRegisteredYet) {
+        notRegisteredYet.addEventListener("click", function (e) {
+          window.location.href = "./register.html";
+        });
+      }
+      
+      var lupaPassword = document.getElementById("lupaPassword");
+      if (lupaPassword) {
+        lupaPassword.addEventListener("click", function (e) {
+          window.location.href = "./forgot-password.html";
+        });
+      }
+      </script>
+  </body>
+</html>

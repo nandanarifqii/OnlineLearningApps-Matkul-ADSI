@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./search-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="search-page">
+      <div class="screen-bar5">
+        <div class="left-area23">
+          <div class="time23">
+            <div class="div45">9:41</div>
+            <img
+              class="location-services-active-wit23"
+              alt=""
+              src="./public/location-services--active-with-condition.svg"
+            />
+          </div>
+        </div>
+        <div class="notch-area23"></div>
+        <div class="right-area23">
+          <div class="status-area23">
+            <div class="auto-layout23">
+              <div class="sim-1-single-sim23">
+                <div class="bar-423"></div>
+                <div class="bar-323"></div>
+                <div class="bar-223"></div>
+                <div class="bar-123"></div>
+              </div>
+              <img
+                class="network-wifi-full23"
+                alt=""
+                src="./public/network--wifi-full2.svg"
+              />
+
+              <img
+                class="battery-full-uncharged23"
+                alt=""
+                src="./public/battery--full-uncharged.svg"
+              />
+            </div>
+          </div>
+          <img class="privacy-indicator-none23" alt="" />
+        </div>
+      </div>
+      <div class="search-column">
+        <div class="searched-words">Belajar apa ya?</div>
+      </div>
+      <div class="logo3">
+        <img
+          class="material-symbolsbook-icon"
+          alt=""
+          src="./public/materialsymbolsbook.svg"
+        />
+
+        <b class="background-text">Mau belajar apa hari ini?</b>
+      </div>
+      <div class="search-bar6">
+        <img
+          class="vector-icon15"
+          alt=""
+          src="./public/vector10.svg"
+          id="vectorIcon"
+        />
+
+        <div class="frame10">
+          <input
+            class="frame-input"
+            type="text"
+            placeholder="Kelas Bahasa Inggris"
+            id="frameInput"
+          />
+
+          <img class="frame-icon3" alt="" src="./public/frame2.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function (e) {
+          window.location.href = "./homepage.html";
+        });
+      }
+      
+      var frameInput = document.getElementById("frameInput");
+      if (frameInput) {
+        frameInput.addEventListener("click", function (e) {
+          window.location.href = "./search-page-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

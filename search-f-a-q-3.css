@@ -1,0 +1,301 @@
+.div8 {
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+}
+.location-services-active-wit3 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.time3 {
+  position: absolute;
+  top: 16px;
+  left: calc(50% - 17px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.left-area3,
+.notch-area3 {
+  position: relative;
+  height: 44px;
+}
+.left-area3 {
+  flex: 1;
+  overflow: hidden;
+}
+.notch-area3 {
+  width: 164px;
+}
+.bar-13,
+.bar-23,
+.bar-33,
+.bar-43 {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% + 6.35px);
+  border-radius: var(--br-12xs);
+  background-color: var(--light-gray-11);
+  width: 3.2px;
+  height: 12px;
+}
+.bar-13,
+.bar-23,
+.bar-33 {
+  top: calc(50% - 3.6px);
+  left: calc(50% + 1.05px);
+  height: 9.6px;
+}
+.bar-13,
+.bar-23 {
+  top: calc(50% - 1px);
+  left: calc(50% - 4.25px);
+  height: 7px;
+}
+.bar-13 {
+  top: calc(50% + 1.4px);
+  left: calc(50% - 9.55px);
+  height: 4.6px;
+}
+.network-wifi-full3,
+.sim-1-single-sim3 {
+  position: relative;
+  width: 20px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.network-wifi-full3 {
+  height: 12px;
+}
+.battery-full-uncharged3 {
+  position: relative;
+  width: 28px;
+  height: 14px;
+}
+.auto-layout3 {
+  position: absolute;
+  top: calc(50% - 7px);
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.status-area3 {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 37.5px);
+  width: 76px;
+  height: 14px;
+}
+.privacy-indicator-none3 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+}
+.right-area3 {
+  flex: 1;
+  position: relative;
+  height: 44px;
+}
+.screen-bar1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--neutral-color-white);
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sf-pro-text);
+}
+.belajar-apa-ya1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  opacity: 0.6;
+}
+.search-coloumn1 {
+  position: absolute;
+  top: 63px;
+  left: 79px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-39xl);
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-400);
+}
+.vector-icon2 {
+  position: absolute;
+  height: 21.39%;
+  width: 3.99%;
+  top: 36.62%;
+  right: 6.78%;
+  bottom: 41.99%;
+  left: 89.23%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.linesystemsearch-2-line-icon6 {
+  position: absolute;
+  top: 3px;
+  left: 18px;
+  width: 25px;
+  height: 24px;
+  overflow: hidden;
+}
+.create-an-account {
+  position: absolute;
+  top: 7.89px;
+  left: 68.5px;
+  letter-spacing: 0.25px;
+  display: inline-block;
+  width: 157px;
+  height: 15px;
+}
+.linesystemsearch-2-line-parent4 {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-gray-2);
+  width: 303px;
+  height: 28px;
+}
+.search-bar1 {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  background-color: var(--neutral-color-white);
+  box-shadow: 0 2px 4px rgba(51, 51, 51, 0.3);
+  width: 390px;
+  height: 71px;
+  font-size: var(--title-poppins-small-size);
+  color: var(--light-gray-7);
+}
+.how-to-create2 {
+  position: absolute;
+  height: 37.41%;
+  width: 71.61%;
+  top: -12.92%;
+  left: 6.18%;
+  line-height: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  transform: rotate(0.29deg);
+  transform-origin: 0 0;
+}
+.welcome-to-our {
+  margin-block-start: 0;
+  margin-block-end: 30px;
+}
+.visit-our-homepage {
+  margin-bottom: 0;
+}
+.visit-our-homepage-and-look-fo {
+  margin: 0;
+  padding-left: var(--padding-mini);
+}
+.if-you-encounter {
+  margin: 0;
+}
+.div9,
+.welcome-to-our-container {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(0.29deg);
+  transform-origin: 0 0;
+}
+.welcome-to-our-container {
+  height: 69.37%;
+  width: 82.17%;
+  top: 11.43%;
+  left: 6.19%;
+  font-size: var(--font-inherit);
+  line-height: 15px;
+  font-family: var(--font-inherit);
+  color: var(--light-gray-7);
+}
+.div9 {
+  height: 27.9%;
+  width: 3.94%;
+  top: 37.76%;
+  left: 90.66%;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--color-crimson);
+  text-align: right;
+  cursor: pointer;
+}
+.how-to-create-a-account-parent {
+  position: absolute;
+  top: 151.25px;
+  left: 24.25px;
+  border-radius: var(--br-5xs);
+  border: 1.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 340.5px;
+  height: 673.5px;
+  font-size: var(--font-size-base);
+}
+.search-faq-3 {
+  position: relative;
+  background-color: var(--neutral-color-white);
+  box-shadow: 11.100000381469727px 15.5px 40.8px rgba(126, 126, 126, 0.2);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--light-gray-11);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .search-bar1 {
+    flex-direction: row;
+    gap: var(--gap-15xl);
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 960px) {
+  .search-bar1 {
+    flex-direction: row;
+    gap: var(--gap-15xl);
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 420px) {
+  .search-bar1 {
+    flex-direction: row;
+    gap: var(--gap-15xl);
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}

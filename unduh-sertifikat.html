@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./unduh-sertifikat.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="unduhsertifikat">
+      <header class="header-section">
+        <img
+          class="button-back-icon"
+          alt=""
+          src="./public/button-back.svg"
+          id="buttonBackIcon"
+        />
+
+        <div class="title9">Unduh Sertifikat</div>
+        <div class="text-input"></div>
+      </header>
+      <div class="certificate-container">
+        <img
+          class="certificate-image-icon"
+          alt=""
+          src="./public/image-container-2-1@2x.png"
+        />
+      </div>
+      <h2 class="certificate-download-status">Sertifikat Berhasil Diunduh</h2>
+      <div class="download-status">
+        <h2 class="certificate-download-status">Download Successfull</h2>
+        <p class="location-text-message">See location</p>
+      </div>
+    </div>
+
+    <script>
+      var buttonBackIcon = document.getElementById("buttonBackIcon");
+      if (buttonBackIcon) {
+        buttonBackIcon.addEventListener("click", function (e) {
+          window.location.href = "./riwayat-kursus.html";
+        });
+      }
+      </script>
+  </body>
+</html>

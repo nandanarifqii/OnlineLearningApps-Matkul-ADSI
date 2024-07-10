@@ -1,0 +1,286 @@
+.title {
+  position: relative;
+}
+.paragraph-secondary {
+  position: relative;
+  font-size: var(--title-poppins-small-size);
+  color: #7d7d7d;
+}
+.title-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.collocations-and-phrases {
+  margin: 0;
+}
+.paragraph1 {
+  position: relative;
+  font-size: var(--title-poppins-small-size);
+  line-height: 120%;
+  display: inline-block;
+  width: 342px;
+}
+.frame-child {
+  position: relative;
+  background-color: var(--neutral-color-white);
+  width: 153px;
+  height: 57px;
+}
+.frame-group {
+  position: absolute;
+  top: 132px;
+  left: 24px;
+  height: 613px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.icon35 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.icon-parent5 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.icon36 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.icon-parent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.detail-materi-child,
+.top-header2 {
+  position: absolute;
+  background-color: var(--neutral-color-white);
+  width: 390px;
+}
+.top-header2 {
+  top: 44px;
+  left: 0;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-3xl);
+  color: var(--neutral-color-700);
+}
+.detail-materi-child {
+  top: 748px;
+  left: 0.5px;
+  box-shadow: 0-2px 4px rgba(51, 51, 51, 0.3);
+  height: 96px;
+}
+.div12 {
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+}
+.location-services-active-wit6 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.time6 {
+  position: absolute;
+  top: 16px;
+  left: calc(50% - 17px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.left-area6,
+.notch-area6 {
+  position: relative;
+  height: 44px;
+}
+.left-area6 {
+  flex: 1;
+  overflow: hidden;
+}
+.notch-area6 {
+  width: 164px;
+}
+.bar-16,
+.bar-26,
+.bar-36,
+.bar-46 {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% + 6.35px);
+  border-radius: var(--br-12xs);
+  background-color: var(--light-gray-11);
+  width: 3.2px;
+  height: 12px;
+}
+.bar-16,
+.bar-26,
+.bar-36 {
+  top: calc(50% - 3.6px);
+  left: calc(50% + 1.05px);
+  height: 9.6px;
+}
+.bar-16,
+.bar-26 {
+  top: calc(50% - 1px);
+  left: calc(50% - 4.25px);
+  height: 7px;
+}
+.bar-16 {
+  top: calc(50% + 1.4px);
+  left: calc(50% - 9.55px);
+  height: 4.6px;
+}
+.network-wifi-full6,
+.sim-1-single-sim6 {
+  position: relative;
+  width: 20px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.network-wifi-full6 {
+  height: 12px;
+}
+.battery-full-uncharged6 {
+  position: relative;
+  width: 28px;
+  height: 14px;
+}
+.auto-layout6 {
+  position: absolute;
+  top: calc(50% - 7px);
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.status-area6 {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 37.5px);
+  width: 76px;
+  height: 14px;
+}
+.privacy-indicator-none6 {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+}
+.right-area6 {
+  flex: 1;
+  position: relative;
+  height: 44px;
+}
+.iphone-with-notch3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--neutral-color-white);
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-sf-pro-text);
+}
+.icon38 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.button2 {
+  border-radius: var(--br-5xs);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--secondary);
+  box-sizing: border-box;
+  width: 163px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base) var(--padding-xs)
+    var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.icon39 {
+  position: relative;
+  width: 16px;
+  height: 19px;
+}
+.button-parent,
+.button3 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.button3 {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  width: 163px;
+  padding: var(--padding-xs) var(--padding-5xs) var(--padding-xs)
+    var(--padding-base);
+  justify-content: center;
+  gap: var(--gap-5xs);
+  cursor: pointer;
+  color: var(--neutral-color-700);
+}
+.button-parent {
+  position: absolute;
+  top: 750px;
+  left: 0;
+  width: 390px;
+  height: 94px;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-13xl);
+  justify-content: space-between;
+  font-size: var(--font-size-base);
+  color: var(--secondary);
+}
+.detail-materi {
+  position: relative;
+  background-color: var(--neutral-color-white);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--light-gray-11);
+  font-family: var(--font-roboto);
+}

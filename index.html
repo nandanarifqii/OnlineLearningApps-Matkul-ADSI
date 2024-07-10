@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tempus Sans ITC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="search-faq-1">
+      <div class="screen-bar">
+        <div class="left-area">
+          <div class="time">
+            <div class="div">9:41</div>
+            <img
+              class="location-services-active-wit"
+              alt=""
+              src="./public/location-services--active-with-condition.svg"
+            />
+          </div>
+        </div>
+        <div class="notch-area"></div>
+        <div class="right-area">
+          <div class="status-area">
+            <div class="auto-layout">
+              <div class="sim-1-single-sim">
+                <div class="bar-4"></div>
+                <div class="bar-3"></div>
+                <div class="bar-2"></div>
+                <div class="bar-1"></div>
+              </div>
+              <img
+                class="network-wifi-full"
+                alt=""
+                src="./public/network--wifi-full.svg"
+              />
+
+              <img
+                class="battery-full-uncharged"
+                alt=""
+                src="./public/battery--full-uncharged.svg"
+              />
+            </div>
+          </div>
+          <img class="privacy-indicator-none" alt="" />
+        </div>
+      </div>
+      <div class="search-coloumn">
+        <div class="belajar-apa-ya">Belajar apa ya?</div>
+      </div>
+      <div class="logo">
+        <img
+          class="icon-search-normal-1"
+          alt=""
+          src="./public/-icon-search-normal-1.svg"
+        />
+      </div>
+      <div class="apa-kesulitan-anda">Apa kesulitan anda?</div>
+      <div class="search-bar">
+        <img
+          class="vector-icon"
+          alt=""
+          src="./public/vector.svg"
+          id="vectorIcon"
+        />
+
+        <div class="linesystemsearch-2-line-parent">
+          <img
+            class="linesystemsearch-2-line-icon"
+            alt=""
+            src="./public/linesystemsearch2line.svg"
+            id="linesystemsearch2LineIcon"
+          />
+
+          <input
+            class="input-keyword"
+            type="text"
+            placeholder="Enter Keyword"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function (e) {
+          window.location.href = "./f-a-q4.html";
+        });
+      }
+      
+      var linesystemsearch2LineIcon = document.getElementById(
+        "linesystemsearch2LineIcon"
+      );
+      if (linesystemsearch2LineIcon) {
+        linesystemsearch2LineIcon.addEventListener("click", function (e) {
+          window.location.href = "./search-f-a-q-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

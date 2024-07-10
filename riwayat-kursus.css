@@ -1,0 +1,159 @@
+.button-back-icon1 {
+  border-radius: var(--br-6xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.button-back-icon1,
+.text-input1 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.header-section1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--light-gray-11);
+  font-family: var(--font-roboto);
+}
+.image-container-icon {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 157px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.course-title,
+.selesai {
+  position: relative;
+  font-weight: 500;
+}
+.course-title {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-family: inherit;
+}
+.selesai {
+  flex: 1;
+}
+.label24 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-beige);
+  width: 106px;
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button-text,
+.course-status {
+  color: var(--light-gray-11);
+  text-align: center;
+}
+.course-status {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-mini);
+}
+.button-text {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+}
+.button-large {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--primary);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card-riwayat-kuis,
+.details-container {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.card-riwayat-kuis {
+  border-radius: var(--br-base);
+  background-color: var(--neutral-color-white);
+  box-shadow: 0 0 8px 1px rgba(25, 27, 32, 0.2);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-xs);
+  gap: var(--gap-2xl);
+}
+.card-riwayat-kuis,
+.card-riwayat-kuis1,
+.container1,
+.riwayatkursus {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card-riwayat-kuis1 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--neutral-color-white);
+  box-shadow: 0 0 8px 1px rgba(25, 27, 32, 0.2);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-lg);
+}
+.container1,
+.riwayatkursus {
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.container1 {
+  align-self: stretch;
+  height: 686px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  padding: 0 var(--padding-xl);
+  align-items: flex-start;
+}
+.riwayatkursus {
+  position: relative;
+  background-color: var(--neutral-color-white);
+  width: 100%;
+  height: 798px;
+  overflow: hidden;
+  padding: var(--padding-xl) 0;
+  align-items: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-roboto);
+}
