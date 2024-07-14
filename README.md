@@ -31,4 +31,8 @@ Menyediakan term & condition untuk pemahaman persyaratan penggunaan aplikasi dan
 ## Steps in this Project
 - Melakukan Identifikasi Rekayasa Kebutuhan Proyek (Skenario User Story, Proses Bisnis, Identifikasi Aktor,
 User Requirement dan Software Requirement Specification / SRS)
-- 
+- Pemodelan ERD, DFD, State Transition Diagram, Definisi Specification, Pemodelan Arsitektur dan Struktur Program
+- Pembuatan Pemodelan Use Case Diagram, Use Case Sepsification, Sequence Diagram, Class Diagram dan Sketsa UI
+- Implementasi DDL (Data Definition Language), Impementation Code, UI Implementation Code, Tracebility Matrix SRS-SDD
+
+## Example Result
