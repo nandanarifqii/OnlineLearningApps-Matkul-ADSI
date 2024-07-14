@@ -27,3 +27,8 @@ Fitur lupa password untuk mengatasi masalah akses akun.
 - Bantuan Pengguna:
 Menyediakan FAQ untuk menjawab pertanyaan umum.
 Menyediakan term & condition untuk pemahaman persyaratan penggunaan aplikasi dan perlindungan data pribadi.
+
+## Steps in this Project
+- Melakukan Identifikasi Rekayasa Kebutuhan Proyek (Skenario User Story, Proses Bisnis, Identifikasi Aktor,
+User Requirement dan Software Requirement Specification / SRS)
+- 
