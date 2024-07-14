@@ -36,15 +36,15 @@ User Requirement dan Software Requirement Specification / SRS)
 - Implementasi DDL (Data Definition Language), Impementation Code, UI Implementation Code, Tracebility Matrix SRS-SDD
 
 ## Example Result
-<img align="center" width="1000" src="proses_bisnis.png" />
-<img align="center" width="1000" src="srs.png" />
-<img align="center" width="1000" src="usecase_diagram.png" />
-<img align="center" width="1000" src="activity_diagram.png" />
-<img align="center" width="1000" src="sequence_diagram.png" />
-<img align="center" width="1000" src="class_diagram.png" />
-<img align="center" width="1000" src="dfd.png" />
-<img align="center" width="1000" src="ddl.png" />
-<img align="center" width="1000" src="ui_apps.png" />
-<img align="center" width="1000" src="ui_apps_2.png" />
-<img align="center" width="1000" src="CodePHP.png" />
-<img align="center" width="1000" src="tracebility.png" />
+<img align="center" width="800" src="proses_bisnis.png" />
+<img align="center" width="800" src="srs.png" />
+<img align="center" width="800" src="usecase_diagram.png" />
+<img align="center" width="800" src="activity_diagram.png" />
+<img align="center" width="800" src="sequence_diagram.png" />
+<img align="center" width="800" src="class_diagram.png" />
+<img align="center" width="800" src="dfd.png" />
+<img align="center" width="800" src="ddl.png" />
+<img align="center" width="800" src="ui_apps.png" />
+<img align="center" width="800" src="ui_apps_2.png" />
+<img align="center" width="800" src="CodePHP.png" />
+<img align="center" width="800" src="traceability.png" />
